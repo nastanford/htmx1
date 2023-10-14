@@ -7,7 +7,7 @@
       <div id="response-div"
         class="text-center mt-4">
         <div class="text-center">
-          <button class="btn btn-secondary text-white"
+          <button class="btn btn-secondary text-white mb-5"
             hx-post="/data/hoverdata.php"
             hx-target="#response-div"
             hx-trigger="mouseenter"

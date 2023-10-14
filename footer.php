@@ -1,10 +1,13 @@
-<div class="container">
-  <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom border-secondary pb-3 mb-3">
-    </ul>
-    <p class="text-center h6 text-primary">HTMX Footer</p>
-    <div hx-get="/data/datetime.php" hx-trigger="every 2s, load"></div>
-  </footer>
+<div class="container-fluid bg-dark">
+  <div class="row p-3 m-3">
+    <div class="col-2">
+      <p class="text-center h6 text-white">HTMX Footer</p>
+    </div>
+    <div class="col-8"></div>
+    <div class="col-2">
+      <div hx-get="/data/datetime.php" hx-trigger="every 2s, load"></div>
+    </div>
+  </div>
 </div>
 </body>
 
