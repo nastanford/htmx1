@@ -3,6 +3,7 @@
     <ul class="nav justify-content-center border-bottom border-secondary pb-3 mb-3">
     </ul>
     <p class="text-center h6 text-primary">HTMX Footer</p>
+    <div hx-get="/data/datetime.php" hx-trigger="every 2s, load"></div>
   </footer>
 </div>
 </body>

@@ -10,7 +10,4 @@
   </div>
 </div>
 
-<div hx-get="/data/datetime.php"
-  hx-trigger="every 2s, load"></div>
-
 <?php include_once "footer.php"; ?>
