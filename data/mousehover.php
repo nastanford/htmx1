@@ -4,17 +4,18 @@
       Mouse Hover<br>
     </div>
     <div>
-      <div class="text-center">
-        <button class="btn btn-secondary text-white"
-          hx-post="/data/hoverdata.php"
-          hx-target="#response-div"
-          hx-trigger="mouseenter"
-          hx-swap="innerhtml">
-          Hover
-        </button>
-      </div>
       <div id="response-div"
-        class="text-center"></div>
+        class="text-center mt-4">
+        <div class="text-center">
+          <button class="btn btn-secondary text-white"
+            hx-post="/data/hoverdata.php"
+            hx-target="#response-div"
+            hx-trigger="mouseenter"
+            hx-swap="innerhtml">
+            Hover
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </div>

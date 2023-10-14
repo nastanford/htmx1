@@ -4,7 +4,7 @@
       Date and Time<br>
       <?php
       // echo date and time
-      echo date("Y-m-d H:i:s");
+      echo date("m/d/Y H:i:s");
       ?>
     </div>
     <div class="text-center muted text-black fst-italic">"This is dynamic code it can be ColdFusion, PHP, or any other
